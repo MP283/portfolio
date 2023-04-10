@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.about-bgimage{
+    width: 100%;
+    height: 110vh;
+    background: url(imgs/abtImg.jpg) no-repeat center/cover;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+.about-bgimage h4{
+    /* margin: 0px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Gwendolyn', cursive; 
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 40px;
+    cursor:default;
+    
+    color: white; */
+
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 95%;
+}
+
+.about-bgimage p{
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: fit-content;
+    padding: 0px 190px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 20px;
+
+}
+
+.About{
+    /* background-color: rgba(248, 177, 177, 0.26); */
+    background-color: rgb(223, 206, 206);
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quoteAbout
+{
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Parisienne', cursive;
+    padding: 5px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.About p
+{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.About ul
+{
+    display:grid;
+    justify-content: left;
+    margin: 10px 0px 0px 25px;
+    line-height: 50px;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.About ul li
+{
+    margin-top: -20px;
+}
+
+.Services
+{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(223, 206, 206);
+}
+
+.services
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+
+    background-color: rgb(223, 206, 206);
+    margin-bottom: 20px;
+}
+
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+
+    width: 20rem;
+    height: 10rem;
+    background-color: rgb(132, 132, 207);
+    border-radius: 8px;
+}
+
+.cards h3 
+{
+    font-size: 25px;
+}
+
+.cards p
+{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 20px;
+    justify-content: center;
+    padding:0px 20px 0px 20px;
+    text-align: center;
+}
+
+.cards:hover
+{
+    width: 20.1rem;
+    height: 10.1rem;
+    background-color: rgb(143, 143, 224);
+    border-radius: 8px;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.329);
+    transition: all 0.1s ease 0s;
+
+}
+
+.App-Designing:hover{
+    padding: 0px 10px;
+}
